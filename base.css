@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+a:link {
+    color: rgb(97, 84, 69);
+    text-decoration: none
+}
+
+a:visited {
+    color: rgb(104, 80, 50);
+    font-style:oblique;
+}
+
+a:hover {
+    color:rgb(122, 19, 19);
+    background-color:#f19040;
+}
+
+a:active {
+    color:whitesmoke;
+}
+
+.wrapper {
+    width: 1200px;
+    display:flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu {
+    width: 15%;
+    background-color: #cec09a;
+    padding: 10px 20px 0px;
+    text-align:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(107, 80, 46)
+}
+.header {
+    background-color: rgb(238, 234, 203);
+    min-height: 150px;
+    text-align:justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align:justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(107, 80, 46);
+    border-color: rgb(141, 120, 92);
+    text-align: justify ;
+    table-layout: fixed;
+    
+    
+}
+.footer {
+    background-color: rgb(238, 234, 203);
+    min-height: 100px;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(107, 80, 46);
+    text-shadow: 0cap;
+}
